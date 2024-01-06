@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/scheme/p" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/scheme/context http://www.springframework.org/schema/context/spring-context.xsd">
+<bean name="emp1" class="com.springcore.collections.Emp">
+<property name="name" value="Radhe"/>
+<property name="phones">
+<list>
+	<value> 983745874</value>	
+	<value> 983745845</value>
+	<value> 983745823</valu>
+	<value> 9837458324</value>
+	<null/>
+</list>
+</property>
+<property name="address">
+<set>
+<value> Delhi </value>
+<value> Indore </value>
+<value> Bhopal </value>
+<value> Kanpur </value>
+</set>
+</property>
+<property name="courses">
+<map>
+<entry key="java" value="2month"/>
+<entry key="python" value="2 month"/>
+<entry key="c" value="2 month"/>
+</map>
+</property>
+<property name="props">
+<props>
+<prop key="name"> Prasoon </prop>
+<prop key="ChannelName"> PrasoonBhargavaShayr </prop>
+</props>
+</property>
+</bean>
+</beans>
