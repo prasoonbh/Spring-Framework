@@ -11,15 +11,6 @@ http://www.springframework.org/schema/context/spring-context.xsd
 http://www.springframework.org/schema/util
 http://www.springframework.org/schema/util/spring-util.xsd
 ">
+<context:component-scan base-package="com.springcore.springexpressionlanguage"></context:component-scan>
 
-<context:component-scan base-package="com.springcore.stereotype"></context:component-scan>
- 
- <util:list list-class="java.util.ArrayList" id ="temp">
-  <value>Indore</value>
-  <value>Bhopal</value>
-  <value>Goa</value>
-  <value>Raisen</value>
- </util:list>
- 
-  <bean class="com.springcore.stereotype.Teacher" name="teacher" scope="prototype"> </bean>
 </beans>
